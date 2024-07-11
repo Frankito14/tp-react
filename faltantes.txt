@@ -1,0 +1,11 @@
+FALTA:
++ Menu interactivo
++ Galeria
++ Ubicacion
++ Iframe de YT o Maps
++ Eventos
++ Nav responsive
+
+ISSUES:
++ El responsive de Historia se rompe todo
+

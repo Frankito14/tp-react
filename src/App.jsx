@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Navigator from './components/Navigator'
 import Main from './components/Main'
 import Footer from './components/Footer'
+import Historia from './components/Historia'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
       <Navigator></Navigator>
       <Hero></Hero>
+      <Historia></Historia>
       <Main></Main>
       <Footer></Footer>
     </>

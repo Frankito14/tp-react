@@ -13,36 +13,53 @@ const menu = [
         name:"Café Java",
         precio:1500,
         img: plato1,
+        desc:"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        link:"https://www.youtube.com/watch?v=Nnxxfi0tuDg"
     },
     {
         id:2,
         name:"Café Linux",
         precio:1500,
         img: plato2,
+        desc:"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        link:"https://www.youtube.com/watch?v=uliUu_bwu8Q"
+
     },
     {
         id:3,
         name:"Lemon Python",
         precio:1500,
         img: plato3,
+        desc:"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        link:"https://www.youtube.com/watch?v=MJ_mNQz0aeU"
+
     },
     {
         id:4,
         name:"TiramiScript",
         precio:1500,
         img: plato4,
+        desc:"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        link:"https://www.youtube.com/watch?v=qy7dGoBukkc"
+
     },
     {
         id:5,
         name:"CheSQLCake",
         precio:1500,
         img: plato5,
+        desc:"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        link:"https://www.youtube.com/watch?v=fEkQ1hIp_FE"
+
     },
     {
         id:6,
         name:"MediaLuas",
         precio:1500,
         img: plato6,
+        desc:"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        link:"https://www.youtube.com/watch?v=N_PcT2diLcM"
+
     },
 ]
 

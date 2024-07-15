@@ -5,12 +5,12 @@ const alumnos = [
         dni: 44391955
     },
     {
-        nombre: 'Pablen Israelesky',
-        dni: '??????'
+        nombre: 'Pablen Israelsky',
+        dni: 41024669
     },
     {
-        nombre: 'Ignacio ??????',
-        dni: '????????'
+        nombre: 'Ignacio Rzeszut',
+        dni:43819049
     },
 ]
 

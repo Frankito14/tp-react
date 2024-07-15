@@ -1,33 +1,49 @@
+import plato1 from '../images/menu-images/cafe_negro.png'
+import plato2 from '../images/menu-images/cafe_latte.png'
+import plato3 from '../images/menu-images/lemon_pie.png'
+import plato4 from '../images/menu-images/tiramisu.png'
+import plato5 from '../images/menu-images/cheesecake.png'
+import plato6 from '../images/menu-images/medialunas.png'
+
+
+
 const menu = [
     {
-        name:"Cafesito",
-        img:"https://cdn.nutritionstudies.org/wp-content/uploads/2015/07/almond-noodles-3-1024x683.jpg"
+        id:1,
+        name:"Café Java",
+        precio:1500,
+        img: plato1,
     },
     {
-        name:"Café con chele",
-        img:"https://cdn.nutritionstudies.org/wp-content/uploads/2015/07/almond-noodles-3-1024x683.jpg"
-
+        id:2,
+        name:"Café Linux",
+        precio:1500,
+        img: plato2,
     },
     {
-        name:"Mondongo",
-        img:"https://cdn.nutritionstudies.org/wp-content/uploads/2015/07/almond-noodles-3-1024x683.jpg"
-
+        id:3,
+        name:"Lemon Python",
+        precio:1500,
+        img: plato3,
     },
     {
-        name:"Puntos de caso de uso",
-        img:"https://cdn.nutritionstudies.org/wp-content/uploads/2015/07/almond-noodles-3-1024x683.jpg"
-
+        id:4,
+        name:"TiramiScript",
+        precio:1500,
+        img: plato4,
     },
     {
-        name:"RNF",
-        img:"https://cdn.nutritionstudies.org/wp-content/uploads/2015/07/almond-noodles-3-1024x683.jpg"
-
+        id:5,
+        name:"CheSQLCake",
+        precio:1500,
+        img: plato5,
     },
     {
-        name:"Qatar 2022",
-        img:"https://cdn.nutritionstudies.org/wp-content/uploads/2015/07/almond-noodles-3-1024x683.jpg"
-
-    }
+        id:6,
+        name:"MediaLuas",
+        precio:1500,
+        img: plato6,
+    },
 ]
 
 export default menu;

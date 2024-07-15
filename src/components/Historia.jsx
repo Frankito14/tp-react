@@ -12,7 +12,7 @@ export default function Historia() {
             <div className="w-full md:w-1/2 bg-cover bg-center bg-fixed " style={{ backgroundImage: `url(${FondoHistoria})` }}>
                 <div className="leading-6 text-white p-10" id='Historia'>
                     <h2 className='text-2xl py-3 font-semibold text-center'>Historia</h2>
-                    <p className="text-md p-10 opacity-80">La última joda, la paga el señor Que le divierten las penas, ajenas de hoy La última moda la impone el señor Marcándome la tendencia, demencia de hoy El tiene todo, lo que hoy precisás Y los infantes se parten el alma por más El te cautiva, mostrando a su dios Que no es el tuyo, pero juega para los dos...</p>
+                    <p className="text-md p-10 opacity-80">Un grupo de recursantes de Construcción de Interfaces de Usuario decidió dejar la carrera y empezar su emprendimiento en el mundo gourmet, usando sus conocimientos en pasteleria y en programación para deleitar a sus clientes con sus postres y patrones de cocina.</p>
                 </div>
             </div>     
         </section>

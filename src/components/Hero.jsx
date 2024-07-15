@@ -7,7 +7,7 @@ export default function Hero() {
             <div className="w-full flex flex-wrap justify-evenly leading-6" >
                 <div className=" w-96 p-5 text-white text-center md:text-start">
                     <h1 className='text-5xl py-3 font-semibold'>Java Café</h1>
-                    <p className="text-md py-3 opacity-70">En este film velado en blanca noche el hijo tenaz de tu enemigo el muy verdugo cena distinguido una noche de cristal que se hace añicos</p>
+                    <p className="text-md py-3 opacity-70">Somos una cafeteria de apasionados por la progrmación, podes disfrutar de todo nuestro menú inspirado en el mundo IT.</p>
                     <button className='text-lg bg-coffe-500 hover:bg-coffe-300 transition py-2 px-4 rounded-xl'>Preparar pedido</button>
                 </div>
                 <div className='w-96 p-5 hidden md:block'>

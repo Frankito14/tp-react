@@ -14,7 +14,7 @@ export default function Navigator(){
             { 
             estaAbierto 
             ?<div className="flex flex-wrap justify-end w-full sm:gap-10 sm:p-5 absolute">
-                <a href="#" onClick={() => window.location.replace("/menu")} className="w-full p-1 sm:w-auto text-center bg-coffe-500 sm:bg-transparent hover:text-coffe-300">Nosotros</a>
+                <a href="#" className="w-full p-1 sm:w-auto text-center bg-coffe-500 sm:bg-transparent hover:text-coffe-300">Nosotros</a>
                 <a href="#" className="w-full p-1 sm:w-auto text-center bg-coffe-500 sm:bg-transparent hover:text-coffe-300">Menú</a>
                 <a href="#" className="w-full p-1 sm:w-auto text-center bg-coffe-500 sm:bg-transparent hover:text-coffe-300">Galeria</a>
                 <a href="#" className="w-full p-1 sm:w-auto text-center bg-coffe-500 sm:bg-transparent hover:text-coffe-300">Contacto</a>

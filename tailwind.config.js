@@ -12,6 +12,10 @@ export default {
         'coffe-500': '#A67B5B',
         'coffe-800': '#6F4E37',
         'coffe-900': '#422f21'
+      },
+      screens:{
+        'xs': '480',
+        'xss' : '320'
       }
     },
   },

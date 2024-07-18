@@ -1,8 +1,35 @@
-# React + Vite
+## Java Café
+Aplicación web desarrollada en React + Vite, usando Tailwindcss para los estilos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Requisitos
+- Tener instalado Node.js (npm)
 
-Currently, two official plugins are available:
+### Correr la aplicacion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instalar las dependencias
+```
+npm install 
+```
+Para correr la aplicacion en forma local
+```
+npm run dev
+```
+Para generar una build para producción
+```
+npm run build
+```
+### Librerias
+Esta app utiliza la siguiente librerias:
+
+#### Producción
+* animate.css
+* react
+* react-dom
+
+#### Desarrollo
+* tailwindcss
+* vite
+* postcss
+* eslint
+En el package.json se encuentra mas información de las librerias usadas
+

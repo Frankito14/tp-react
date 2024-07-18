@@ -1,10 +1,10 @@
 
 export default function GaleriaItem(props) {
     return (
-        <article className="relative w-64 text-white pb-1 bg-coffe-800 bg-opacity-80">
-            <div className="text-xs flex flex-start flex-wrap gap-2 font-bold p-0.5 px-1 m-1 absolute z-20">
+        <article className="relative w-64 text-white pb-1 bg-coffe-1000 bg-opacity-80">
+            <div className="text-xs flex flex-start flex-wrap gap-2 font-bold p-0.5 px-1 m-1 absolute z-10">
                 {
-                    props.ingredients.map(ingrediente => <span className="bg-slate-800 bg-opacity-70 p-1">{ingrediente}</span>)
+                    props.ingredients.map((ingrediente, index) => <span key={index} className="bg-slate-800 bg-opacity-70 p-1">{ingrediente}</span>)
                 }
             </div>
             <img className="sm:w-auto object-cover object-center backdrop-opacity-50 brightness-90" src={props.img} title={props.title} alt={props.title} />

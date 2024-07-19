@@ -5,7 +5,7 @@ import 'animate.css';
 export default function Navigator() {
 
     const seMuestraBurgerMenu = window.screen.width < 640
-    const [estaActivo, setEstaActivo] = useState(seMuestraBurgerMenu);
+    const [estaActivo, setEstaActivo] = useState(false);
 
     if (!estaActivo && seMuestraBurgerMenu)
         return (
@@ -17,11 +17,11 @@ export default function Navigator() {
         return (
             <nav className='w-full bg-coffe-900 sm:bg-transparent flex flex-items justify-end flex-wrap gap-2 text-white fixed sm:absolute top-0 z-20 animate__animated animate__fadeInDown'>
                 <svg onClick={() => { setEstaActivo(!estaActivo) }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-12 p-2 hover:cursor-pointer sm:hidden"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
-                <div className="w-full flex flex-wrap flex-items justify-end gap-4 sm:p-4">
-                    <a href="/#nosotros"  className="w-full block p-1 sm:w-auto sm:inline text-center text-lg sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Nosotros</a>
-                    <a href="/#menu"      className="w-full block p-1 sm:w-auto sm:inline text-center text-lg sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Menú</a>
-                    <a href="/#galeria"   className="w-full block p-1 sm:w-auto sm:inline text-center text-lg sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Galeria</a>
-                    <a href="/#contacto"  className="w-full block p-1 sm:w-auto sm:inline text-center text-lg sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Ubicación</a>
+                <div className="w-full flex flex-wrap flex-items justify-end gap-4 sm:p-4 text-center text-md">
+                    <a href="/#nosotros"  className="w-full block p-1 sm:w-auto sm:inline sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Nosotros</a>
+                    <a href="/#menu"      className="w-full block p-1 sm:w-auto sm:inline sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Menú</a>
+                    <a href="/#galeria"   className="w-full block p-1 sm:w-auto sm:inline sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Galeria</a>
+                    <a href="/#contacto"  className="w-full block p-1 sm:w-auto sm:inline sm:bg-transparent hover:text-coffe-300 hover:cursor-pointer">Ubicación</a>
                 </div>
             </nav>
         )

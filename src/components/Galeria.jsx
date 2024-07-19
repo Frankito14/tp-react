@@ -10,7 +10,9 @@ export default function Galeria(){
     useEffect(()=>{
         fetch("https://api.sampleapis.com/coffee/hot")
         .then((response) => response.json())  
-	    .then((json) => {setGaleria(json); console.log(json)})
+	    .then((json) => {
+            setGaleria(json); console.log(json)
+        })
     },[])
 
     return(

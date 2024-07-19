@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import menu from '../assets/data/dataMenu'
-import BannerImage from '../assets/images/banner.png'
+import BannerImage from '../assets/images/banner-darker.png'
 
 import MenuItem from './MenuItem'
 
@@ -39,8 +39,10 @@ export default function Menu() {
                     {pedidos.map(pedido =>
                         <span key={pedido.id} className='block w-full m-auto font-semibold text-center text-lg p-2'>{`${pedido.name} x${pedido.cantidad} - $${pedido.precioUnidad * pedido.cantidad}`}</span>
                     )}
-                    <span className='block w-full m-auto text-center text-lg bg-green-700 font-bold p-2 bg-opacity-70'>{`Total: $${pedidos.reduce((acc, obj) => acc + (obj.precioUnidad*obj.cantidad), 0)}`}</span>
-
+                    { (pedidos.length > 0)
+                     ? <span className='block w-full m-auto text-center text-lg bg-green-700 font-bold p-2 bg-opacity-70'>{`Total: $${pedidos.reduce((acc, obj) => acc + (obj.precioUnidad*obj.cantidad), 0)}`}</span>
+                     : <span className='block w-full m-auto text-center text-lg font-bold p-2 opacity-80'>No hay pedidos seleccionados</span> 
+                    }
                 </div>
             </div>
         </section>

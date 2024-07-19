@@ -12,6 +12,10 @@ const alumnos = [
         nombre: 'Ignacio Rzeszut',
         dni:43819049
     },
+    {
+        nombre: 'Elizabeth Albornoz',
+        dni:4111111
+    },
 ]
 
 export default alumnos

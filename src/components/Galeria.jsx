@@ -19,7 +19,13 @@ export default function Galeria(){
         <section className="w-full bg-cover bg-center bg-fixed bg-coffe-900 pb-4">
             <h2 id="galeria" className='text-2xl py-4 pb-8 font-semibold text-center text-white'>Galeria</h2>
             <div className="w-full flex flex-wrap justify-center gap-4 p-2">
-                {galeria.map(item => <GaleriaItem key={item.id} title={item.title} description={item.description} img={item.image} ingredients={item.ingredients} />)}
+                {galeria.map(item =>
+                    {
+                        if(item.image && item.image.includes("https")){ // esta porción de código se incluyó por los problemas que daba la api con imagenes nulas o que no eran links
+                            return <GaleriaItem key={item.id} title={item.title} description={item.description} img={item.image} ingredients={item.ingredients} />
+                        } 
+                    }
+                    )}
             </div>
         </section>
     )

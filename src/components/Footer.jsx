@@ -36,7 +36,7 @@ export default function Footer() {
     return (
         <footer className="w-full flex flex-wrap justify-evenly p-5 bg-coffe-1000 text-gray-300 text-sm">
             <div className="w-full md:w-1/3">
-                <h4 className="text-lg text-center font-bold mb-5">Integrantes</h4>
+                <h4 className="text-md text-center font-bold mb-5">Integrantes</h4>
                 <div className='flex flex-wrap justify-center'>
                 {dataAlumnos.map((alumno, index) =>
                     <FooterItem key={index} title={alumno.nombre} subtitle={alumno.dni} icon={iconPersona}></FooterItem>)
@@ -44,7 +44,7 @@ export default function Footer() {
                 </div>
             </div>    
             <div className='w-full pt-10 sm:pt-0 md:w-1/3'>
-                <h4 className="text-lg text-center font-bold mb-5">Contacto</h4>
+                <h4 className="text-md text-center font-bold mb-5">Contacto</h4>
                 <div className='flex flex-wrap justify-center'>
                 {contacto.map((contacto, index) =>
                     <FooterItem key={index} title={contacto.title} subtitle={contacto.desc} icon={contacto.icon}></FooterItem>)
@@ -60,11 +60,11 @@ const FooterItem = (props) => {
     return (
         <div className='flex flex-nowrap inline w-full justify-center sm:w-1/2 '>
             <div className='p-3 pb-6'>
-                <img className="w-16 p-2" src={props.icon}></img>
+                <img className="w-12 p-2" src={props.icon}></img>
             </div>
             <div className=''>
-                <p className='my-3 font-semibold text-md'>{props.title}</p>
-                <p className='my-3 font-semibold text-md'>{props.subtitle}</p>
+                <p className='my-3 font-semibold text-xs'>{props.title}</p>
+                <p className='my-3 font-semibold text-xs'>{props.subtitle}</p>
             </div>
         </div>
     )

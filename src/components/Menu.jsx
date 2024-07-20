@@ -41,7 +41,7 @@ export default function Menu() {
                     )}
                     { (pedidos.length > 0)
                      ? <span className='block w-full m-auto text-center text-lg bg-green-700 font-bold p-2 bg-opacity-70'>{`Total: $${pedidos.reduce((acc, obj) => acc + (obj.precioUnidad*obj.cantidad), 0)}`}</span>
-                     : <span className='block w-full m-auto text-center text-lg font-bold p-2 opacity-80'>No hay pedidos seleccionados</span> 
+                     : <span className='block w-full m-auto text-center text-md font-medium p-2 opacity-90'>No hay pedidos seleccionados</span> 
                     }
                 </div>
             </div>

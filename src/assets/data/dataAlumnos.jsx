@@ -14,7 +14,7 @@ const alumnos = [
     },
     {
         nombre: 'Elizabeth Albornoz',
-        dni:4111111
+        dni:44258393
     },
 ]
 

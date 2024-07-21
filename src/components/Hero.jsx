@@ -4,7 +4,7 @@ import 'animate.css';
 
 export default function Hero() {
     return (
-        <section class="h-screen bg-cover bg-center bg-fixed flex items-center bg-slate-100 z-20" style={{backgroundImage: `url(${BannerImage})`}}>
+        <section className="h-screen bg-cover bg-center bg-fixed flex items-center bg-slate-100 z-20" style={{backgroundImage: `url(${BannerImage})`}}>
             <div className="w-full flex flex-wrap justify-evenly leading-6" >
                 <div className=" w-96 p-5 text-white text-center md:text-start animate__animated animate__fadeInUp">
                     <h1 className='text-4xl py-3 font-semibold'>Java Café</h1>

@@ -6,7 +6,7 @@ export default function Historia() {
             <div className="w-full md:w-1/2 bg-coffe-900">
                 <div className="leading-6 text-white p-10 opacity-100" id='nosotros'>
                     <h2 className='text-2xl py-3 font-semibold text-center'>Filosofia</h2>
-                    <iframe class="w-full md:w-3/4 m-auto aspect-video p-5" src="https://www.youtube.com/embed/OUx-_oQCZrI?si=2jJmBCqOTVo5ETFi"></iframe>
+                    <iframe className="w-full md:w-3/4 m-auto aspect-video p-5" src="https://www.youtube.com/embed/OUx-_oQCZrI?si=2jJmBCqOTVo5ETFi"></iframe>
                 </div>
             </div>
             <div className="w-full md:w-1/2 bg-cover bg-center bg-fixed " style={{ backgroundImage: `url(${FondoHistoria})` }}>

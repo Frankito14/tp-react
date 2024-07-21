@@ -11,7 +11,7 @@ export default function Galeria(){
         fetch("https://api.sampleapis.com/coffee/hot")
         .then((response) => response.json())  
 	    .then((json) => {
-            setGaleria(json); console.log(json)
+            setGaleria(json.filter(item => item.image && item.image.includes("https")))// el filter se incluyó por los problemas que daba la api con imagenes nulas o que no eran links
         })
     },[])
 
@@ -20,11 +20,7 @@ export default function Galeria(){
             <h2 id="galeria" className='text-2xl py-4 pb-8 font-semibold text-center text-white'>Galeria</h2>
             <div className="w-full flex flex-wrap justify-center gap-4 p-2">
                 {galeria.map(item =>
-                    {
-                        if(item.image && item.image.includes("https")){ // esta porción de código se incluyó por los problemas que daba la api con imagenes nulas o que no eran links
-                            return <GaleriaItem key={item.id} title={item.title} description={item.description} img={item.image} ingredients={item.ingredients} />
-                        } 
-                    }
+                    <GaleriaItem key={item.id} title={item.title} description={item.description} img={item.image} ingredients={item.ingredients} />
                     )}
             </div>
         </section>
